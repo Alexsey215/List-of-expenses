@@ -37,7 +37,7 @@ export default {
       content: "";
       position: relative;
       border: 1px solid #ccc;
-      width: 335px;
+      width: 450px;
     }
     &-item {
       margin-top: 7px;
