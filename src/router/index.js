@@ -27,8 +27,8 @@ export default new Router({
     },
     {
       path: '*',
-      name: 'NotFound',
-      component: Page404
+      name: 'Page404',
+      component: Page404,
     },
   ]
 })
