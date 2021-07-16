@@ -26,7 +26,7 @@ export default new Router({
       component: AddPaymentForm,
     },
     {
-      path: '*',
+      path: '/notfound',
       name: 'Page404',
       component: Page404,
     },
