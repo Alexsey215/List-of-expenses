@@ -8,6 +8,7 @@
     <main>
       <div class="container">
         <router-link to="/add/payment"></router-link>
+        <router-link to="/notfound"></router-link>
         <router-view />
         <div class="payment">
           <AddPaymentForm @addNewPayment="addData" v-show="addNewPaymentVisibility" :selected="selected"/>
